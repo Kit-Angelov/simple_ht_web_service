@@ -87,9 +87,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ht_web_service',
-        'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': '192.168.2.252',
+        'USER': 'htwebservice',
+        'PASSWORD': 'htwebserviceadmin',
+        'HOST': '195.98.73.242',
         'PORT': '5432',
     }
 }
