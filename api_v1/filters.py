@@ -1,6 +1,6 @@
 from django_filters import FilterSet, filters
-from ht_web_service.apps.ht.models import *
-from ht_web_service.apps.ht.search import search
+from ht.models import *
+from ht.search import search
 
 
 class HistoryFilter(FilterSet):

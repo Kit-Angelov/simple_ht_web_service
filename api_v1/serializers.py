@@ -1,5 +1,5 @@
-from ht_web_service.apps.ht.models import *
-from ht_web_service.users.models import User as CustomUser
+from ht.models import *
+from django.contrib.auth.models import User as CustomUser
 from rest_framework import serializers
 from datetime import datetime
 

@@ -1,5 +1,5 @@
 from django.db import models
-from ht_web_service.users.models import User as CustomUser
+from django.contrib.auth.models import User as CustomUser
 from .search import FeatureIndex
 
 

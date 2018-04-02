@@ -1,5 +1,5 @@
-from ht_web_service.apps.ht import models
-from ht_web_service.users.models import User as CustomUser
+from ht import models
+from django.contrib.auth.models import User as CustomUser
 from rest_framework import viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
