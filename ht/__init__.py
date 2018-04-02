@@ -1,1 +1,1 @@
-default_app_config = 'ht_web_service.apps.ht.apps.HtConfig'
+default_app_config = 'ht.apps.HtConfig'
