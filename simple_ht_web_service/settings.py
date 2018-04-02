@@ -86,14 +86,23 @@ WSGI_APPLICATION = 'simple_ht_web_service.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ht_web_service',
-        'USER': 'htwebservice',
-        'PASSWORD': 'htwebserviceadmin',
-        'HOST': '195.98.73.242',
+        'NAME': 'd41ttf6tp7or4g',
+        'USER': 'qrqfwwuelwmvjc',
+        'PASSWORD': 'd1a6465b6db0c1a3d812d66cfcd16a978de7954cdaaa4e03beb96e9b42478790',
+        'HOST': 'ec2-174-129-206-173.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'ht_web_service',
+#         'USER': 'htwebservice',
+#         'PASSWORD': 'htwebserviceadmin',
+#         'HOST': '195.98.73.242',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
